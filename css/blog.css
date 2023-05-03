@@ -1,0 +1,183 @@
+body {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "PaytoneOne";
+  src: local("PaytoneOne"), url("../assets/fonts/PaytoneOne.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("../assets/fonts/Roboto.ttf") format("truetype");
+}
+:root {
+  --giveit-blue: #384FF0;
+  --giveit-white: #FFFFFF;
+  --giveit-green: #64AF13;
+  --giveit-title-font: "PaytoneOne", sans-serif;
+  --giveit-regular-font: "Roboto", sans-serif;
+}
+
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 33px 0px 33px;
+  background-color: var(--giveit-blue);
+}
+.navbarContainer .navbarLogoContainer {
+  display: flex;
+  align-items: center;
+}
+.navbarContainer .navbarLogoContainer img {
+  height: 50px;
+}
+.navbarContainer .navbarLogoContainer h1 {
+  color: var(--giveit-white);
+  font-family: var(--giveit-title-font);
+  font-weight: 500;
+}
+.navbarContainer .navbarOptionsContainer {
+  display: flex;
+  gap: 25px;
+}
+.navbarContainer .navbarOptionsContainer .navbarOption {
+  color: var(--giveit-white);
+  font-family: var(--giveit-regular-font);
+  font-weight: 500;
+  text-decoration: none;
+}
+@media (max-width: 700px) {
+  .navbarContainer .navbarOptionsContainer {
+    display: none;
+  }
+  .navbarContainer .navbarLogoContainer img {
+    height: 30px;
+  }
+  .navbarContainer .navbarLogoContainer h1 {
+    font-size: 20px;
+  }
+}
+
+.buttonContainer {
+  font-family: var(--giveit-regular-font);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 15px 40px;
+}
+@media (max-width: 700px) {
+  .buttonContainer {
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.buttonGreen {
+  color: var(--giveit-white);
+  background-color: var(--giveit-green);
+}
+
+.buttonWhite {
+  color: var(--giveit-blue);
+  background-color: var(--giveit-white);
+}
+
+.buttonBlue {
+  color: var(--giveit-white);
+  background-color: var(--giveit-blue);
+  border: 1.5px solid var(--giveit-white);
+}
+
+.buttonRoundedLeft {
+  border-radius: 30px 30px 0px 30px;
+}
+
+.buttonRoundedRight {
+  border-radius: 30px 30px 30px 0px;
+}
+
+footer {
+  background-color: var(--giveit-blue);
+  padding-top: 90px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+}
+footer .footerLogoContainer {
+  display: flex;
+  align-items: center;
+  font-family: var(--giveit-title-font);
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 15px;
+}
+footer .footerLogoContainer img {
+  width: 60px;
+}
+footer .footerGiveIt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+@media (max-width: 700px) {
+  footer .footerGiveIt {
+    font-size: 14px;
+  }
+}
+footer .footerOptionContainer {
+  display: flex;
+  gap: 25px;
+}
+footer .footerOptionContainer .footerOption {
+  color: #9EA9B9;
+  text-decoration: none;
+  font-family: var(--giveit-regular-font);
+}
+footer .copyRight {
+  color: #9EA9B9;
+  font-family: var(--giveit-regular-font);
+  font-size: 14px;
+}
+
+.blog-container {
+  padding: 35px 50px;
+}
+.blog-container h2 {
+  font-family: var(--giveit-title-font);
+  color: var(--giveit-blue);
+}
+.blog-container p {
+  font-family: var(--giveit-regular-font);
+}
+.blog-container .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 50px;
+}
+.blog-container .grid-container .blog-post {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.blog-container .grid-container .blog-post img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.blog-container .grid-container .blog-post h3 {
+  font-family: var(--giveit-title-font);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.blog-container .grid-container .blog-post p {
+  font-family: var(--giveit-regular-font);
+  font-size: 16px;
+  color: #666;
+}/*# sourceMappingURL=blog.css.map */

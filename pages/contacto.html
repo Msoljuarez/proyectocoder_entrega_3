@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiveIt</title>
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbarContainer">
+            <div class="navbarLogoContainer">
+                <img src="../assets/image/rocket.svg" alt="logo"/>
+                <h1>give it</h1>
+            </div>
+            <div class="navbarOptionsContainer">
+              <a class="navbarOption" href="index.html">¿Por que Give It?</a>
+              <a class="navbarOption" href="./pages/tarifas.html">Tarifas</a>
+              <a class="navbarOption" href="./pages/blog.html">Blog</a>
+              <a class="navbarOption" href="./pages/contacto.html">Contacto</a>
+          </div>
+            <a href="https://dashboard.giveit.es" class="buttonContainer buttonGreen buttonRoundedLeft">Ingresar</a>
+        </nav>
+        <!-- //NAVBAR -->
+    </header>
+    <main>
+        <div class="contactoContainer" id="contact">
+            <section class="contactoContent">
+              <div class="contactoTextContainer">
+                <span class="sectionTitle">Programar demo</span>
+                <p>Si tiene preguntas o desea probar nuestros servicios, nuestros expertos estarán a su disposición para responder a todas sus preguntas y contarle más sobre los beneficios de Give It.</p>
+              </div>
+              <div class="contactoFormContainer">
+                <div class="formContainer">
+                  <span>Tus datos</span>
+                  <p>Por favor, completa los campos con la información necesaria para poder asesorarte de la mejor manera posible.</p>
+                  <form>
+                    <div>
+                      <label for="name">Nombre <span>*</span></label>
+                      <input type='text' required placeholder='Nombre' name='name'/>
+                    </div>
+                    <div>
+                      <label for="email">Email <span>*</span></label>
+                      <input type='email' required placeholder='ejemplo@gmail.com' name='email' />
+                    </div>
+                    <div>
+                      <label for="phone">Teléfono</label>
+                      <input type='phone' placeholder='+54 2231231234' name='phone' required />
+                    </div>
+                    <div>
+                      <label for="message">Mensaje <span>*</span></label>
+                      <textarea placeholder='Escriba el mensaje aquí..' name='message' required></textarea>
+                    </div>
+                    <button type='submit' style="cursor: pointer">Pedir demo</button>
+                  </form>
+                </div>
+                <div class="contactChannelsContainer">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8220.27205707688!2d-57.562793016575746!3d-38.00460860329039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dea44d9f22e3%3A0x4c07c9f874bb45c5!2sYakarplas!5e0!3m2!1ses!2sar!4v1679331588376!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
+                </div>
+              </div>
+            </section>
+          </div>
+    </main>
+    <footer>
+        <div class="footerGiveIt">
+          <div class="footerLogoContainer"><img src="assets/image/rocket.svg" alt="" /><h1>give it</h1></div>
+          <div class="footerOptionContainer">
+            <a class="footerOption" href='#whyGiveIt'>¿Por que Give It?</a>
+            <a class="footerOption" href='#ourServices'>Soluciones</a>
+            <a class="footerOption" href='#ourBenefits'>Beneficios</a>
+            <a class="footerOption" href='#prices'>Tarifas</a>
+            <a class="footerOption" href='#contact'>Contactanos</a>
+          </div>
+        </div>
+        <div style="padding-top: 45; display: flex; justify-content: space-between; align-items: center ">
+          <div class="copyRight">© 2023 Give It. All rights reserved.</div>
+          <div style="display: flex; gap: 25 ">
+              <img src="../assets/image/Facebook_white.png" alt=''/>
+              <img src="../assets/image/Twitter_white.png" alt=''/>
+              <img src="../assets/image/Instagram_white.png" alt=''/>
+              <img src="../assets/image/LinkedIn_white.png" alt=''/>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

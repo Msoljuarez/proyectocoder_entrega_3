@@ -1,0 +1,45 @@
+footer {
+  background-color: var(--giveit-blue);
+  padding-top: 90px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+}
+footer .footerLogoContainer {
+  display: flex;
+  align-items: center;
+  font-family: var(--giveit-title-font);
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 15px;
+}
+footer .footerLogoContainer img {
+  width: 60px;
+}
+footer .footerGiveIt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+@media (max-width: 700px) {
+  footer .footerGiveIt {
+    font-size: 14px;
+  }
+}
+footer .footerOptionContainer {
+  display: flex;
+  gap: 25px;
+}
+footer .footerOptionContainer .footerOption {
+  color: #9EA9B9;
+  text-decoration: none;
+  font-family: var(--giveit-regular-font);
+}
+footer .copyRight {
+  color: #9EA9B9;
+  font-family: var(--giveit-regular-font);
+  font-size: 14px;
+}/*# sourceMappingURL=footer.css.map */

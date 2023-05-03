@@ -1,0 +1,39 @@
+.buttonContainer {
+  font-family: var(--giveit-regular-font);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 15px 40px;
+}
+@media (max-width: 700px) {
+  .buttonContainer {
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.buttonGreen {
+  color: var(--giveit-white);
+  background-color: var(--giveit-green);
+}
+
+.buttonWhite {
+  color: var(--giveit-blue);
+  background-color: var(--giveit-white);
+}
+
+.buttonBlue {
+  color: var(--giveit-white);
+  background-color: var(--giveit-blue);
+  border: 1.5px solid var(--giveit-white);
+}
+
+.buttonRoundedLeft {
+  border-radius: 30px 30px 0px 30px;
+}
+
+.buttonRoundedRight {
+  border-radius: 30px 30px 30px 0px;
+}/*# sourceMappingURL=button.css.map */

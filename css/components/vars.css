@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "PaytoneOne";
+  src: local("PaytoneOne"), url("../assets/fonts/PaytoneOne.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("../assets/fonts/Roboto.ttf") format("truetype");
+}
+:root {
+  --giveit-blue: #384FF0;
+  --giveit-white: #FFFFFF;
+  --giveit-green: #64AF13;
+  --giveit-title-font: "PaytoneOne", sans-serif;
+  --giveit-regular-font: "Roboto", sans-serif;
+}/*# sourceMappingURL=vars.css.map */

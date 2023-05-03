@@ -1,0 +1,42 @@
+@import './components/pages.scss', './components/vars.scss', './components/navbar.scss', './components/button.scss', './components/footer.scss';
+
+.blog-container{
+    padding: 35px 50px;
+
+    h2 {
+        font-family: var(--giveit-title-font);
+        color: var(--giveit-blue)
+    }
+
+    p{
+        font-family: var(--giveit-regular-font);
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 50px;
+
+        .blog-post {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+            img {
+                width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-family: var(--giveit-title-font);
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-family: var(--giveit-regular-font);
+                font-size: 16px;
+                color: #666;
+            }
+        }
+    }
+}
